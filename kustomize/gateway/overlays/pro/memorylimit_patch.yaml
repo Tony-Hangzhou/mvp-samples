@@ -10,6 +10,6 @@ spec:
       - name: gateway
         resources:
           limits:
-            cpu: "2000m"
+            cpu: "2048m"
           requests:
-            cpu: "1000m"
+            cpu: "1024m"
