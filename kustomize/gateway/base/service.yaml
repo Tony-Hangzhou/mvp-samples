@@ -1,0 +1,9 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: gateway
+  namespace: face
+spec:
+  ports:
+  - port: 80
+    targetPort: 8888

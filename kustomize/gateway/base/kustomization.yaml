@@ -1,0 +1,8 @@
+commonLabels:
+  app: gateway
+
+resources:
+- service.yaml
+- deployment.yaml
+
+
